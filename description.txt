@@ -1,0 +1,11 @@
+DEX Slippage: Real vs Expected â€” Sample Dataset
+
+Actual execution slippage vs quoted slippage on Base L2 DEXs. Covers 25 real trades across Aerodrome and Uniswap V3 with trade size, quoted price, execution price, and excess slippage analysis.
+
+Key findings: Large trades over 10K consistently exceed quoted slippage by 20-50 bps on volatile pairs. Stablecoin pairs stay within 1 bps even at 15K size. Uniswap V3 quotes are optimistic â€” actual exceeds quoted in 72% of trades over 5K.
+
+Ideal for: DEX UI auditing, trading strategy optimization, MEV protection research, slippage prediction modeling, aggregator comparison.
+
+Full dataset: 5,000+ trades across Aerodrome, Uniswap V3, and Curve on Base L2 with 90 days of data. Available on Payhip.
+
+Format: CSV with schema documentation. 25 rows in sample.
